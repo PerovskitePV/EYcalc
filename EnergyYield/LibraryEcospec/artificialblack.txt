@@ -1,0 +1,23 @@
+Name: Artificial black, set by Jonathan Lehr
+Type:
+Class:
+Subclass:
+Particle Size:
+Sample No.:
+Owner:
+Wavelength Range:
+Origin:
+Collection Date:
+Description:
+Measurement:
+First Column: X
+Second Column: Y
+X Units: Wavelength (micrometers)
+Y Units:Reflectance (percent)
+First X Value:
+Last X Value:
+Number of X Values: 561
+Additional Information: none
+
+ 0.3000	 0
+ 2.0000	 0

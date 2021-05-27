@@ -1,0 +1,10 @@
+Irradiance/Spectra*
+Irradiance/Dataset_TMY3/*
+Irradiance/Code_SMARTS_*/*
+!Irradiance/Spectra_AM1.5G_spectrum/
+
+EnergyYield/LibraryEcospec/*
+!EnergyYield/LibraryEcospec/artificialblack.txt
+!EnergyYield/LibraryEcospec/artificialwhite.txt
+
+*.asv
