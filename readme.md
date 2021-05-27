@@ -74,7 +74,7 @@ If you want to contribute to this project and make it better, your help is very 
 
 ### Contact
 
-For any questions regarding the software, please contact [Ulrich W. Paetzold](mailto:ulrich.paetzold@kit.edu?subject=[GitHub]%20Question%20on%20Energy%20Yield%20Calculator). See also [here](https://www.lti.kit.edu/mitarbeiter_7254.php).
+For any questions regarding the software, please contact [Ulrich W. Paetzold](mailto:ulrich.paetzold@kit.edu?subject=[GitHub]%20Question%20on%20EYcalc). See also [here](https://www.lti.kit.edu/mitarbeiter_7254.php).
 
 ### Citing
 
@@ -88,10 +88,10 @@ or to this code directly:
 
 ### License
 
-This software is licensed under the [GPLv3](https://www.gnu.org/licenses/gpl-3.0.html) license. © 2021 EYcalc
+This software is licensed under the [GPLv3](https://www.gnu.org/licenses/gpl-3.0.html) license. © 2021 EYcalc -
 Ulrich W. Paetzold, Raphael Schmager, Malte Langenhorst, Jonathan Lehr, Fabrizio Gota
 
-Interested in a sublicense agreement to use EYcalc in a non-free/restrictive environment? Contact [Ulrich W. Paetzold](mailto:ulrich.paetzold@kit.edu?subject=[GitHub]%20Question%20on%20Energy%20Yield%20Calculator)!
+Interested in a sublicense agreement to use EYcalc in a non-free/restrictive environment? Contact [Ulrich W. Paetzold](mailto:ulrich.paetzold@kit.edu?subject=[GitHub]%20Question%20on%20EYcalc)!
 
 ### Further reading
 
