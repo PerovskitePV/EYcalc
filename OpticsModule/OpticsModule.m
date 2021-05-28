@@ -181,8 +181,8 @@ function optics = runoptics
     % Check if each incohrent layer has a morphology
     if numel(Morphology) ~= length(pos_i)-1
         error('foo:bar',['The number of assigned morphologies (',num2str(numel(Morphology)), ...
-            ') does not match the number of incohrent layers (',num2str(length(pos_i)-1),')!\n\n', ...
-            'Note: For each incohrent layer (except the first) a textured needs to be defined.']);
+            ') does not match the number of incoherent layers (',num2str(length(pos_i)-1),')!\n\n', ...
+            'Note: For each incoherent layer (except the first) a textured needs to be defined.']);
         return; %#ok<UNRCH>
     end
 

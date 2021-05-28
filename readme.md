@@ -8,7 +8,7 @@ It allows rapid simulation of complex architectures and was developed with the a
 
 By making use of pre-simulated textures (e.g., inverted pyramids, regular upright pyramids, random pyramids) by geometrical ray tracing, any incoherent interface within the architecture can also be textured. 
 
-The software is available as source code and a simple to use graphical user interface (GUI), which requires either a MATLAB (>R2017a) installation or the MATLAB runtime.
+The software is available as source code and as a simple to use graphical user interface (GUI), which requires either a MATLAB (>R2017a and >R2020b, respectively) installation or the MATLAB runtime.
 
 ### Basic Features
 
@@ -41,15 +41,15 @@ The software is divided into individual modules, which handle the irradiation, o
 
 This software project was initiated by **[Ulrich W. Paetzold](mailto:ulrich.paetzold@kit.edu?subject=[GitHub]%20Question%20on%20Energy%20Yield%20Software)**. The **code development** was driven by:
 
-* **Jonathan Lehr** (electrics module, albedo)
-* **Malte Langenhorst** (optics module, irradiance module)
 * **Raphael Schmager** (energy yield core, irradiance module, optics module, electrics module, GUI)
+* **Malte Langenhorst** (optics module, irradiance module)
+* **Jonathan Lehr** (electrics module, albedo)
 * **Fabrizio Gota** (numerical modelling on 3T interconnection, optics module)
 
 The financial support by the following **projects and grants** is gratefully acknowledged:
 
 - [PERCISTAND](https://percistand.eu/en) (funding code: 850937), European Union's Horizon 2020 research and innovation programme
-- Helmholtz Young Investigator Group of U. Paetzold (funding code: VH-NG-1148), [Helmholtz Association](https://www.helmholtz.de/)
+- Helmholtz Young Investigator Group of U. W. Paetzold (funding code: VH-NG-1148), [Helmholtz Association](https://www.helmholtz.de/)
 - [PEROSEED](https://www.helmholtz-berlin.de/projects/peroseed/index_en.html) (funding code: ZT-0024), [Helmholtz Association](https://www.helmholtz.de/)
 - CAPITANO (funding code: 03EE1038B), [Federal Ministry for Economic Affairs and Energy](https://www.bmwi.de/)
 - 27Plus6 (funding code: 03EE1056B), [Federal Ministry for Economic Affairs and Energy](https://www.bmwi.de/)
@@ -66,7 +66,7 @@ This software uses codes and data from **other programmers and resources**:
 
 ### Getting started
 
-Download and extract the project. Open the `main.m`, which contains all definitions and settings to calculate the energy yield (EY) of a perovskite/c-Si multi-junction solar cell. In order to start your simulations, you need to get and add some external files, like the SAMRTS code or the TMY3 data. Please check out our [wiki page](https://github.com/PerovskitePV/EYcalc/wiki) for some help. You'll find a detailed description of each of the modules as well as a [guide](https://github.com/PerovskitePV/EYcalc/wiki/Setup) for setting up the required external files.   
+To use all features of the EYcalc software, *you need* to download and add some external files, like the [SMARTS](https://www.nrel.gov/grid/solar-resource/smarts-register.html) code and the [TMY3](https://nsrdb.nrel.gov/data-sets/archives.html) data. Please see our [setup guide](https://github.com/PerovskitePV/EYcalc/wiki/Setup) for help in setting up the required external files! On our [wiki page](https://github.com/PerovskitePV/EYcalc/wiki) you can also find a detailed description for each of the modules as well as a [quick start guide](https://github.com/PerovskitePV/EYcalc/wiki/Quick%20Start%20Guide).
 
 ### Contributing
 
@@ -84,12 +84,11 @@ If you use our software or parts of it in the current or a modified version, you
 
 or to this code directly:
 
-* EYcalc - Energy yield calculator for multi-junction solar modules with realistic irradiance data and textured interfaces. (2021). [doi.org/10.5281/zenodo.4696257](https://doi.org/10.5281/zenodo.4696257).
+* EYcalc - Energy yield calculator for multi-junction solar modules with realistic irradiance data and textured interfaces. (2021). [doi:10.5281/zenodo.4696257](https://doi.org/10.5281/zenodo.4696257).
 
 ### License
 
-This software is licensed under the [GPLv3](https://www.gnu.org/licenses/gpl-3.0.html) license. © 2021 EYcalc -
-Ulrich W. Paetzold, Raphael Schmager, Malte Langenhorst, Jonathan Lehr, Fabrizio Gota
+This software is licensed under the [GPLv3](https://www.gnu.org/licenses/gpl-3.0.html) license. © 2021 EYcalc - Ulrich W. Paetzold, Raphael Schmager, Malte Langenhorst, Jonathan Lehr, Fabrizio Gota
 
 Interested in a sublicense agreement to use EYcalc in a non-free/restrictive environment? Contact [Ulrich W. Paetzold](mailto:ulrich.paetzold@kit.edu?subject=[GitHub]%20Question%20on%20EYcalc)!
 
@@ -97,11 +96,11 @@ Interested in a sublicense agreement to use EYcalc in a non-free/restrictive env
 
 This energy yield software has been used in the following publications:
 
-* M. De Bastiani et al., Efficient bifacial monolithic perovskite/silicon tandem solar cells via bandgap engineering, Nature Energy. (2021). [doi.org/10.1038/s41560-020-00756-8](https://doi.org/10.1038/s41560-020-00756-8).
+* M. De Bastiani et al., Efficient bifacial monolithic perovskite/silicon tandem solar cells via bandgap engineering, Nature Energy. (2021). [doi:10.1038/s41560-020-00756-8](https://doi.org/10.1038/s41560-020-00756-8).
 
-* J. Lehr et al., Numerical study on the angular light trapping of the energy yield of organic solar cells with an optical cavity, Opt. Express. (2020). [doi.org/10.1364/OE.404969](https://doi.org/10.1364/OE.404969).
+* J. Lehr et al., Numerical study on the angular light trapping of the energy yield of organic solar cells with an optical cavity, Opt. Express. (2020). [doi:10.1364/OE.404969](https://doi.org/10.1364/OE.404969).
 
-* F. Gota et al., Energy Yield Advantages of Three-Terminal Perovskite-Silicon Tandem Photovoltaics, Joule, (2020). [doi.org/10.1016/j.joule.2020.08.021](https://doi.org/10.1016/j.joule.2020.08.021).
+* F. Gota et al., Energy Yield Advantages of Three-Terminal Perovskite-Silicon Tandem Photovoltaics, Joule, (2020). [doi:10.1016/j.joule.2020.08.021](https://doi.org/10.1016/j.joule.2020.08.021).
 
 * J. Lehr et al., Energy yield of bifacial textured perovskite/silicon tandem photovoltaic modules, Sol.
   Energy Mater. Sol. Cells. (2020). [doi:10.1016/j.solmat.2019.110367](https://doi.org/10.1016/j.solmat.2019.110367).
